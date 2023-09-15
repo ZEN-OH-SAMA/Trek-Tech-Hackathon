@@ -24,7 +24,7 @@ def send():
 
 	elif (user == "events" or user == "Could you tell me more about events taking place in college"):
 		txt.insert(END, "\n" + "Bot: Welcome to the College Events Information Section \n We have number of events organised by the college \n Some of the Events organised by us are \n 1.The Grant Event Zephrs\n2.Freshers for the new students\n3.Various department level Fests by Every Department\n3.Hackathons\n4.Games Competition\n5.Varioius Events on Festivals\n6.Orientation programs"
-      "7.Tantragyan \n 8.Robocon \n 9.Seminars \n 10.Event Calender \n ")
+      "\n 7.Tantragyan \n 8.Robocon \n 9.Seminars \n 10.Event Calender \n ")
 		
 	elif (user == "amenities" or user == "What are amenities provided by the college" or user == "i am doing good"):
 		txt.insert(END, "\n" + "Bot: Numerous amenities are made available for students \n ------------------------------------------------------ \n * Building Area\n* Computing facilities\n* Seminar halls \n* E-library\n* Counselling cell\n*"
@@ -41,7 +41,7 @@ def send():
 		txt.insert(
 			END, "\n" + "Bot: Major Recruiters in our college are: \n -> AWS\n -> IBM\n -> Tata Consultancy Services\n -> Infosys\n -> LTI\n -> Jio\n -> Capgemini\n -> accenture\n -> HCl")
 
-	elif (user == "details" or user == "Explain me " or user == "see yaa"):
+	elif (user == "details" or user == "Tell me details about college" or user == "see yaa"):
 		txt.insert(END, "\n" + "Bot: \n Our college is located at-\nLokmanya Tilak College of Engineering,Vikas Nagar, Gyan Vikas Sector 4, Kopar Khairane, Navi Mumbai, Maharashtra 400709\nContacts info-\nMobile/Telephone No- +91-022-27541005/+91-022-27541006\nEmail id- principal@ltce.in\nprincipal.ltce@gmail.com")
 
 	else:
