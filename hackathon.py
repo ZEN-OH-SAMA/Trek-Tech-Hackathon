@@ -26,12 +26,12 @@ def send():
 		txt.insert(END, "\n" + "Bot: Welcome to the College Events Information Section \n We have number of events organised by the college \n Some of the Events organised by us are \n 1.The Grant Event Zephrs\n2.Freshers for the new students\n3.Various department level Fests by Every Department\n3.Hackathons\n4.Games Competition\n5.Varioius Events on Festivals\n6.Orientation programs"
       "\n 7.Tantragyan \n 8.Robocon \n 9.Seminars \n 10.Event Calender \n ")
 		
-	elif (user == "amenities" or user == "What are amenities provided by the college" or user == "Facilities"):
+	elif (user == "amenities" or user == "What are amenities provided by the college" or user == "Facilities offered"):
 		txt.insert(END, "\n" + "Bot: Numerous amenities are made available for students \n ------------------------------------------------------ \n * Building Area\n* Computing facilities\n* Seminar halls \n* E-library\n* Counselling cell\n*"
       " Training and placement cell\n* Student clubs\n* Student internships\n* Canteen services\n"
       "* sports \n ")
 
-	elif (user == "programs" or user == "Which programs are offered by the college" or user == "Course offered"):
+	elif (user == "programs" or user == "Which programs are offered by the college" or user == "Courses offered"):
 		txt.insert(END, "\n" + "Bot: Programs Offered \n ------------------- \n * U.G (B.E) Program \n    -Computer Engineering\n    -Mechanical Engineering\n    -Electrical Engineering\n    -Electronics & Telecom. Engineering\n    -CSE (Data Science)\n    -CSE (AI & ML)\n    -CSE (IoT and Cyber Security)\n* P.G( M.E) Program    -Computer Engineering\n    -Mechanical Engineering\n* DOCTORATE (PH.D.)Program    -Computer Engineering\n    -Mechanical Engineering\n ")
 
 	elif (user == "emergency" or user == "Where should I contact during emergencies"):
