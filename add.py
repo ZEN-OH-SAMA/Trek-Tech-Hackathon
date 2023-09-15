@@ -1,0 +1,11 @@
+print("\nAdress-")
+print("Lokmanya Tilak College of Engineering,Vikas Nagar, Gyan Vikas Sector 4, Kopar Khairane, Navi Mumbai, Maharashtra 400709\n")
+print("Direction Link-")
+print("https://www.google.com/maps/dir//Lokmanya+Tilak+College+of+Engineering,+Vikas+Nagar,+%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8+%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B8+%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%97,+%E0%A4%B8%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A4%B0+4,+Kopar+Khairane,+Navi+Mumbai,+Maharashtra+400709/@19.1057096,73.0046732,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3be7c0da59d0a01b:0x56642a54a185f894!2m2!1d73.0072481!2d19.1057096?entry=ttu")
+print("\n")
+print("Contacts info")
+print("Mobile/Telephone No")
+print("+91-022-27541005\n+91-022-27541006\n")
+print("Email id")
+print("principal@ltce.in\nprincipal.ltce@gmail.com")
+
