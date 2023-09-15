@@ -17,7 +17,7 @@ def send():
 	user = e.get().lower()
 
 	if (user == "hello" or user == "hi" or user == "hii"):
-		txt.insert(END, "\n" + "Bot: Hi there, how can I help?\n Here are some frequently asked questions: \n 1- Course offered ? \n2- Admission Related Enquiry \n3- Major recruiters ?\n4- Events ?\n5- Facilities Offered?")
+		txt.insert(END, "\n" + "Bot: Hi there, how can I help?\n Here are some frequently asked questions: \n 1- Course offered ? \n2- Admission Related Enquiry \n3- Major recruiters ?\n4- Events ?\n5- Facilities Offered?\n6- Emergency")
 
 	elif (user == "admission" or user == "Admission related enquiry" or user == "hiiii"):
 		txt.insert(END, "\n" + "Bot: For admission related enquiries please refer to Official CET Cell website: https://cetcell.mahacet.org\n  You'll be asked to login using your email id on CET CELL\n")
@@ -34,7 +34,7 @@ def send():
 	elif (user == "programs" or user == "Which programs are offered by the college" or user == "Course offered"):
 		txt.insert(END, "\n" + "Bot: Programs Offered \n ------------------- \n * U.G (B.E) Program \n    -Computer Engineering\n    -Mechanical Engineering\n    -Electrical Engineering\n    -Electronics & Telecom. Engineering\n    -CSE (Data Science)\n    -CSE (AI & ML)\n    -CSE (IoT and Cyber Security)\n* P.G( M.E) Program    -Computer Engineering\n    -Mechanical Engineering\n* DOCTORATE (PH.D.)Program    -Computer Engineering\n    -Mechanical Engineering\n ")
 
-	elif (user == "emergency" or user == "Where should I contact during emergencies" or user == ):
+	elif (user == "emergency" or user == "Where should I contact during emergencies"):
 		txt.insert(END, "\n" + "Bot: In case of Emergency services immediately call for \n * Campus security- 022-27541005\n* Police Helpline- 100\n* Ambulance- 102,108\n* Fire Helpline- 101")
 
 	elif (user == "recruiters" or user == "What are major recruiters of college" or user == "Major recruiters"):
