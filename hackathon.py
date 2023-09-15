@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title("College Information Chatbot")
-BG_GRAY = "#B6B6B6"
+BG_GRAY = "#FFFFFF"
 BG_COLOR = "#FFFFFF"
 TEXT_COLOR = "#000000"
 
