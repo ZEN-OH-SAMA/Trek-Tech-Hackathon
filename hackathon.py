@@ -17,7 +17,7 @@ def send():
 	user = e.get().lower()
 
 	if (user == "hello" or user == "hi" or user == "hii"):
-		txt.insert(END, "\n" + "Bot: Hi there, how can I help?\n Here are some frequently asked questions: \n 1- Course offered ? \n2- Admission Related Enquiry \n3- Major recruiters ?\n4- Events ?\n5- Facilities Offered?\n6- Emergency")
+		txt.insert(END, "\n" + "Bot: Hi there, how can I help?\n Here are some frequently asked questions:\n 1- Course offered ? \n2- Admission Related Enquiry \n3- Major recruiters ?\n4- Events ?\n5- Facilities Offered?\n6- Emergency")
 
 	elif (user == "admission" or user == "Admission related enquiry" or user == "hiiii"):
 		txt.insert(END, "\n" + "Bot: For admission related enquiries please refer to Official CET Cell website: https://cetcell.mahacet.org\n  You'll be asked to login using your email id on CET CELL\n")
