@@ -23,7 +23,7 @@ def send():
 		txt.insert(END, "\n" + "Bot: For admission related enquiries please refer to Official CET Cell website: https://cetcell.mahacet.org\n  You'll be asked to login using your email id on CET CELL\n")
 
 	elif (user == "events" or user == "Could you tell me more about events taking place in college"):
-		txt.insert(END, "\n" + "Bot: Welcome to the College Events Information Section \n We have number of events organised by the college \n Some of the Events organised by us are \n 1.The Grant Event Zephrs\n2.Freshers for the new students\n3.Various department level Fests by Every Department\n3.Hackathons\n4.Games Competition\n5.Varioius Events on Festivals\n6.Orientation programs \n "
+		txt.insert(END, "\n" + "Bot: Welcome to the College Events Information Section \n We have number of events organised by the college \n Some of the Events organised by us are \n 1.The Grant Event Zephrs\n2.Freshers for the new students\n3.Various department level Fests by Every Department\n3.Hackathons\n4.Games Competition\n5.Varioius Events on Festivals\n6.Orientation programs"
       "\n 7.Tantragyan \n 8.Robocon \n 9.Seminars \n 10.Event Calender \n ")
 		
 	elif (user == "amenities" or user == "What are amenities provided by the college" or user == "Facilities offered"):
