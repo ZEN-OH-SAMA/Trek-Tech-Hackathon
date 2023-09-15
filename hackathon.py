@@ -58,12 +58,11 @@ txt.grid(row=1, column=0, columnspan=2)
 scrollbar = Scrollbar(txt)
 scrollbar.place(relheight=1, relx=0.974)
 
-e = Entry(root, bg="#2C3E50", fg=TEXT_COLOR, font=FONT, width=55)
+e = Entry(root, bg="#FFFFFF", fg=TEXT_COLOR, font=FONT, width=55)
 e.grid(row=2, column=0)
 
 send = Button(root, text="Send", font=FONT_BOLD, bg=BG_GRAY,
 			command=send).grid(row=2, column=1)
 
 root.mainloop()
-
 
