@@ -31,7 +31,7 @@ def send():
       " Training and placement cell\n* Student clubs\n* Student internships\n* Canteen services\n"
       "* sports \n ")
 
-	elif (user == "programs" or user == "Which programs are offered by the college" or user == "Courses offered"):
+	elif (user == "courses" or user == "Which programs are offered by the college" or user == "Courses offered"):
 		txt.insert(END, "\n" + "Bot: Programs Offered \n ------------------- \n * U.G (B.E) Program \n    -Computer Engineering\n    -Mechanical Engineering\n    -Electrical Engineering\n    -Electronics & Telecom. Engineering\n    -CSE (Data Science)\n    -CSE (AI & ML)\n    -CSE (IoT and Cyber Security)\n* P.G( M.E) Program    -Computer Engineering\n    -Mechanical Engineering\n* DOCTORATE (PH.D.)Program    -Computer Engineering\n    -Mechanical Engineering\n ")
 
 	elif (user == "emergency" or user == "Where should I contact during emergencies"):
